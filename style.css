@@ -1,0 +1,35 @@
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+html,
+body {
+  max-width: 100%;
+  min-height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+}
+.my__carousel {
+  padding: 0;
+}
+.my__carousel .carousel-item {
+  max-height: 600px;
+}
+section {
+  padding: 0 50px;
+}
+.card {
+  min-height: 100%;
+}
